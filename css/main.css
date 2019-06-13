@@ -1,0 +1,173 @@
+@import url(normalize.css);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+*{
+	font-family: 'Droid Serif', serif;
+}
+
+.contenedorCentral{
+	margin: 0 auto;
+	width: 60%;
+	padding: 20px;
+}
+
+/**/
+
+.inputsForm{
+	padding: 10px;
+	outline: 0;
+	width: 96%;
+	margin: 10px;
+	margin-left: 0px;
+}
+
+.txtAreaForm{
+	resize: none;
+	height: 200px;
+}
+
+
+.arrow_box {
+	position: relative;
+	background: #88b7d5;
+	border: 4px solid #c2e1f5;
+	color: #ddf8c6;
+	text-align: center;
+	font-size: 25px;
+	line-height: 54px;
+	padding: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+.arrow_box:after, .arrow_box:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-bottom-color: #88b7d5;
+	border-width: 30px;
+	margin-left: -30px;
+}
+.arrow_box:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-bottom-color: #c2e1f5;
+	border-width: 36px;
+	margin-left: -36px;
+}
+
+/**/
+#titulo{
+	background-color: #2ecc71;
+	padding: 10px;
+}
+
+#titulo > h1{
+	margin: 0;
+}
+
+#clasesLista{
+	padding: 0px;
+}
+
+#clasesLista > li{
+	display: inline-block;
+	width: 47%;
+	margin: 10px;
+	background-color: #2ecc71;
+	text-align: center;
+	padding: 3px;
+}
+
+#clasesLista > li > img{
+	width: 100%;
+}
+
+#profesoresLista{
+	padding: 0;
+}
+
+#profesoresLista > li{
+	display: inline-block;
+	text-align: center;
+	width: 33%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#profesoresLista > li > img{
+	border-radius: 50%;
+	border: solid 3px #4c9dec;
+}
+
+*{
+	margin: 0;
+}
+
+.menu{
+	height: 100%;
+	width: 20%;
+	position: fixed;
+	border-right: inset 1px silver;
+	background-color: #7f8c8d;
+}
+.container{
+	float: right;
+	width: 80%;
+}
+#contenedor{
+	width: 98%;
+	margin: 0 auto;
+}
+.logo{
+	width: 100%;
+	border-bottom: solid 1px silver;
+}
+
+.menu > ul{
+	padding: 0px;
+	width: 100%;
+}
+
+.menu > ul > li{
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;	
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.menu > ul > li:hover, .activeItem{
+	background-color: #f5f5f5;
+	color: black;
+	border-left: solid 8px #7ddc1f;
+}
+
+.activeItem{
+	background-color: #f5f5f5;
+	color: black;
+	border-left: solid 8px #7ddc1f;
+}
+
+.inactiveItem{
+	color: white;
+}
+
+/* ----------------------------- */
+
+.captionIMG{
+	width: 100%;
+}
